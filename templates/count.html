@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count</title>
+</head>
+<body>
+<h1>Count:&nbsp{{ count }}</h1>
+{% for word, wc in worddict.items %}
+{{ word }}
+<br>
+{{ wc }}
+<br>
+{% endfor %}
+</body>
+</html>
